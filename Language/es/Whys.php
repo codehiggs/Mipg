@@ -2,9 +2,9 @@
 
 /**
  * █ ---------------------------------------------------------------------------------------------------------------------
- * █ ░FRAMEWORK                                  2024-04-16 05:29:00
+ * █ ░FRAMEWORK                                  2024-07-24 17:47:00
  * █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Plans\Views\Whys\Creator\index.php]
- * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2023 - CloudEngine S.A.S., Inc. <admin@cgine.com>
+ * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2024 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  * █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
  * █                                             consulte la LICENCIA archivo que se distribuyó con este código fuente.
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -17,6 +17,7 @@
  * █ O EL USO U OTROS NEGOCIACIONES EN EL SOFTWARE.
  * █ ---------------------------------------------------------------------------------------------------------------------
  * █ @Author Jose Alexis Correa Valencia <jalexiscv@gmail.com>
+ * █ @Editor Anderson Ospina Lenis <andersonospina798@gmail.com>
  * █ @link https://www.codehiggs.com
  * █ @Version 1.5.0 @since PHP 7, PHP 8
  * █ ---------------------------------------------------------------------------------------------------------------------
@@ -59,49 +60,49 @@ return [
     "help_updated_at" => "updated_at",
     "help_deleted_at" => "deleted_at",
     // - Whys creator
-    "create-denied-title" => "Acceso denegado!",
-    "create-denied-message" => "Su rol en la plataforma no posee los privilegios requeridos para crear nuevos porqués, por favor póngase en contacto con el administrador del sistema o en su efecto contacte al personal de soporte técnico para que estos le sean asignados, según sea el caso. Para continuar presioné la opción correspondiente en la parte inferior de este mensaje.",
+    "create-denied-title" => "¡Acceso denegado!",
+    "create-denied-message" => "Su rol en la plataforma no posee los privilegios requeridos para crear nuevos porqués. Por favor, póngase en contacto con el administrador del sistema o, en su defecto, con el personal de soporte técnico para que estos le sean asignados, según sea el caso. Para continuar, presione la opción correspondiente en la parte inferior de este mensaje.",
     "create-title" => "Crear nuevo porqué",
     "create-errors-title" => "¡Advertencia!",
-    "create-errors-message" => "Los datos proporcionados son incorrectos o están incompletos, por favor verifique eh inténtelo nuevamente.",
-    "create-duplicate-title" => "¡porqué existente!",
-    "create-duplicate-message" => "Este porqué ya se había registrado previamente, presioné continuar en la parte inferior de este mensaje para retornar al listado general de porqués.",
+    "create-errors-message" => "Los datos proporcionados son incorrectos o están incompletos. Por favor, verifique e inténtelo nuevamente.",
+    "create-duplicate-title" => "¡Porqué existente!",
+    "create-duplicate-message" => "Este porqué ya se había registrado previamente. Presione continuar en la parte inferior de este mensaje para retornar al listado general de porqués.",
     "create-success-title" => "¡Porqué registrado exitosamente!",
-    "create-success-message" => "La porqué se registró exitosamente, para retornar al listado general de porqués presioné continuar en la parte inferior de este mensaje.",
+    "create-success-message" => "El porqué se registró exitosamente. Para retornar al listado general de porqués, presione continuar en la parte inferior de este mensaje.",
     // - Whys viewer
     "view-denied-title" => "¡Acceso denegado!",
-    "view-denied-message" => "Los roles asignados a su perfil, no le conceden los privilegios necesarios para visualizar porqués en esta plataforma. Contacte al departamento de soporte técnico para información adicional, o la asignación de los permisos necesarios si es el caso. Para continuar seleccione la opción correspondiente en la parte inferior de este mensaje.",
+    "view-denied-message" => "Los roles asignados a su perfil no le conceden los privilegios necesarios para visualizar porqués en esta plataforma. Contacte al departamento de soporte técnico para obtener información adicional o la asignación de los permisos necesarios, si es el caso. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
     "view-title" => "Vista",
     "view-errors-title" => "¡Advertencia!",
-    "view-errors-message" => "Los datos proporcionados son incorrectos o están incompletos, por favor verifique eh inténtelo nuevamente.",
+    "view-errors-message" => "Los datos proporcionados son incorrectos o están incompletos. Por favor, verifique e inténtelo nuevamente.",
     "view-noexist-title" => "¡No existe!",
     "view-noexist-message" => "",
     "view-success-title" => "",
     "view-success-message" => "",
     // - Whys editor
     "edit-denied-title" => "¡Advertencia!",
-    "edit-denied-message" => "Los roles asignados a su perfil, no le conceden los privilegios necesarios para actualizar porqués en esta plataforma. Contacte al departamento de soporte técnico para información adicional, o la asignación de los permisos necesarios si es el caso. Para continuar seleccione la opción correspondiente en la parte inferior de este mensaje.",
+    "edit-denied-message" => "Los roles asignados a su perfil no le conceden los privilegios necesarios para actualizar porqués en esta plataforma. Contacte al departamento de soporte técnico para obtener información adicional o la asignación de los permisos necesarios, si es el caso. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
     "edit-title" => "¡Actualizar porqué!",
     "edit-errors-title" => "¡Advertencia!",
-    "edit-errors-message" => "Los datos proporcionados son incorrectos o están incompletos, por favor verifique eh inténtelo nuevamente.",
+    "edit-errors-message" => "Los datos proporcionados son incorrectos o están incompletos. Por favor, verifique e inténtelo nuevamente.",
     "edit-noexist-title" => "¡No existe!",
-    "edit-noexist-message" => "El elemento que actualizar no existe o se elimino previamente, para retornar al listado general de porqués presioné continuar en la parte inferior de este mensaje. ",
+    "edit-noexist-message" => "El elemento que desea actualizar no existe o se eliminó previamente. Para retornar al listado general de porqués, presione continuar en la parte inferior de este mensaje. ",
     "edit-success-title" => "¡Porqué actualizada!",
-    "edit-success-message" => "Los datos del porqué se <b>actualizaron exitosamente</b>, para retornar al listado general de porqués presioné el botón continuar en la parte inferior del presente mensaje.",
+    "edit-success-message" => "Los datos del porqué se <b>actualizaron exitosamente</b>. Para regresar al listado general de porqués, presioné el botón continuar en la parte inferior del presente mensaje.",
     // - Whys deleter
     "delete-denied-title" => "¡Advertencia!",
-    "delete-denied-message" => "Los roles asignados a su perfil, no le conceden los privilegios necesarios para eliminar porqués en esta plataforma. Contacte al departamento de soporte técnico para información adicional, o la asignación de los permisos necesarios si es el caso. Para continuar seleccione la opción correspondiente en la parte inferior de este mensaje.",
+    "delete-denied-message" => "Los roles asignados a su perfil no le conceden los privilegios necesarios para eliminar porqués en esta plataforma. Contacte al departamento de soporte técnico para obtener información adicional o para solicitar la asignación de los permisos necesarios, si es el caso. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
     "delete-title" => "¡Eliminar porqué!",
-    "delete-message" => "Para confirmar la eliminación del porqué <b>%s</b>, presioné eliminar, para retornar al listado general de porqués presioné cancelar.",
+    "delete-message" => "Para confirmar la eliminación del porqué <b>%s</b>, presione 'Eliminar'. Para regresar al listado general de porqués, presione cancelar.",
     "delete-errors-title" => "¡Advertencia!",
-    "delete-errors-message" => "Los datos proporcionados son incorrectos o están incompletos, por favor verifique eh inténtelo nuevamente.",
+    "delete-errors-message" => "Los datos proporcionados son incorrectos o están incompletos. Por favor, verifique y vuelva a intentarlo.",
     "delete-noexist-title" => "¡No existe!",
-    "delete-noexist-message" => "\El elemento que intenta eliminar no existe o se elimino previamente, para retornar al listado general de porqués presioné continuar en la parte inferior de este mensaje.",
+    "delete-noexist-message" => "El elemento que intenta eliminar no existe o ya se ha eliminado previamente. Para regresar al listado general de porqués, presione 'Continuar' en la parte inferior de este mensaje.",
     "delete-success-title" => "¡Porqué eliminado exitosamente!",
-    "delete-success-message" => "La porqué se elimino exitosamente, para retornar al listado de general de porqués presioné el botón continuar en la parte inferior de este mensaje.",
+    "delete-success-message" => "El porqué se eliminó exitosamente. Para regresar al listado general de porqués, presione el botón continuar en la parte inferior de este mensaje.",
     // - Whys list
     "list-denied-title" => "¡Advertencia!",
-    "list-denied-message" => "Los roles asignados a su perfil, no le conceden los privilegios necesarios para acceder al listado general de porqués en esta plataforma. Contacte al departamento de soporte técnico para información adicional, o la asignación de los permisos necesarios si es el caso. Para continuar seleccione la opción correspondiente en la parte inferior de este mensaje.",
+    "list-denied-message" => "Los roles asignados a su perfil no le conceden los privilegios necesarios para acceder al listado general de porqués en esta plataforma. Contacte al departamento de soporte técnico para obtener información adicional o para solicitar la asignación de los permisos necesarios, si es el caso. Para continuar, seleccione la opción correspondiente en la parte inferior de este mensaje.",
     "list-title" => "Estrategia de los 5 porqué",
 ];
 
