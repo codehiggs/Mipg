@@ -2,7 +2,7 @@
 
 /**
  * █ ---------------------------------------------------------------------------------------------------------------------
- * █ ░FRAMEWORK                                  2024-07-24 17:05:12
+ * █ ░FRAMEWORK                                  2024-07-24 17:05:13
  * █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Mipg\Home\breadcrumb.php]
  * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2024 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  * █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,

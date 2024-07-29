@@ -2,7 +2,7 @@
 
 /**
  * █ ---------------------------------------------------------------------------------------------------------------------
- * █ ░FRAMEWORK                                  2024-04-15 15:11:23
+ * █ ░FRAMEWORK                                  2024-04-15 15:12:23
  * █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Plans\Views\Causes\Creator\index.php]
  * █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2024 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  * █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
