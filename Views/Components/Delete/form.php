@@ -3,9 +3,9 @@
 /*
  * **
  *  ** █ ---------------------------------------------------------------------------------------------------------------------
- *  ** █ ░FRAMEWORK                                  2023-12-01 23:19:27
+ *  ** █ ░FRAMEWORK                                  2024-08-05 15:17:17
  *  ** █ ░█▀▀█ █▀▀█ █▀▀▄ █▀▀ ░█─░█ ─▀─ █▀▀▀ █▀▀▀ █▀▀ [App\Modules\Account\Views\Processes\Creator\deny.php]
- *  ** █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2023 - CloudEngine S.A.S., Inc. <admin@cgine.com>
+ *  ** █ ░█─── █──█ █──█ █▀▀ ░█▀▀█ ▀█▀ █─▀█ █─▀█ ▀▀█ Copyright 2024 - CloudEngine S.A.S., Inc. <admin@cgine.com>
  *  ** █ ░█▄▄█ ▀▀▀▀ ▀▀▀─ ▀▀▀ ░█─░█ ▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀ Para obtener información completa sobre derechos de autor y licencia,
  *  ** █                                             consulte la LICENCIA archivo que se distribuyó con este código fuente.
  *  ** █ ---------------------------------------------------------------------------------------------------------------------
@@ -18,6 +18,7 @@
  *  ** █ O EL USO U OTROS NEGOCIACIONES EN EL SOFTWARE.
  *  ** █ ---------------------------------------------------------------------------------------------------------------------
  *  ** █ @Author Jose Alexis Correa Valencia <jalexiscv@gmail.com>
+ *  ** █ @Editor Anderson Ospina Lenis <andersonospina798@gmail.com>
  *  ** █ @link https://www.codehiggs.com
  *  ** █ @Version 1.5.0 @since PHP 7, PHP 8
  *  ** █ ---------------------------------------------------------------------------------------------------------------------
@@ -32,7 +33,7 @@ $bootstrap = service("bootstrap");
 //[models]--------------------------------------------------------------------------------------------------------------
 //$model = model("App\Modules\Mipg\Models\Mipg_Components");
 //[vars]----------------------------------------------------------------------------------------------------------------
-$f = service("forms", array("lang" => "Components."));
+$f = service("forms", array("lang" => "Mipg_Components."));
 $r = $model->where('component', $oid)->first();
 $name = urldecode($r["name"]);
 $message = sprintf(lang("Components.delete-message"), $name);

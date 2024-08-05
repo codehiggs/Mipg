@@ -41,7 +41,7 @@ $dates = service('Dates');
 $strings = service('strings');
 $authentication = service('authentication');
 //[vars]----------------------------------------------------------------------------------------------------------------
-$f = service("forms", array("lang" => "Plans.plans-"));
+$f = service("forms", array("lang" => "Mipg_Plans."));
 $model = model("App\Modules\Plans\Models\Plans_Plans");
 $d = array(
     "plan" => $f->get_Value("plan"),
